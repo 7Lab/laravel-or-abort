@@ -26,9 +26,7 @@ class Post extends Model
 ## Usage
 After adding the trait, just use the two new functions:
 ```php
-
 $post = Post::findOrAbort(1);
 
 $mostPopularPost = Post::orderBy('views', 'asc')->firstOrAbort();
-
 ```
